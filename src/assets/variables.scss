@@ -1,0 +1,48 @@
+$buttonHeight: 32px;
+$buttonBorderRadius: 4px;
+
+$colorLight: #aeccf2;
+$colorMiddle: #7bbfea;
+$colorDeep: #777BCE;
+$green: #98bca6;
+
+$font-size: 14px;
+$regular: 400;
+$semibold: 600;
+$bold: 1000;
+
+.router-link-active {
+  color: $colorDeep;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: AlibabaSans-Italic, Alibaba-PuHuiTi-Regular, Helvetica,
+    "PingFang SC", "Helvetica Neue", Arial, "Microsoft Yahei", "SimHei",
+    monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $font-size;
+  color: $colorMiddle;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+
+:focus {
+  outline: 0;
+}
+/*for mozilla*/
+::-moz-focus-inner {
+  border-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
